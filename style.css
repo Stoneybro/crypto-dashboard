@@ -1,0 +1,35 @@
+:root{
+    --backgroundcolor-darker:hsla(242, 39%, 15%, 1);
+    --backgroundcolor-lighter-search-card:hsla(242, 35%, 18%, 1);
+    --menu-active:hsla(242, 34%, 22%, 1);
+    --balance-border:hsla(215, 96%, 58%, 1);
+}
+/* ///////////////////////////
+standards 
+////////////////////////// */
+*,::after,::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "poppins";
+}
+/* ///////////////////////////
+sections
+////////////////////////// */
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 100vh;
+}
+.section1{
+    background-color: var(--backgroundcolor-lighter-search-card);
+}
+.section2{
+background-color: var(--backgroundcolor-darker);
+}
+.section3{
+    background-color: var(--backgroundcolor-lighter-search-card);
+}
