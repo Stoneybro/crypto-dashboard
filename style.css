@@ -167,5 +167,12 @@ section three
     font-size: 0.55em;
     color: var(--font-color-faint);
 }
+.activity img{
+    width: 1.3rem;
+}
+.activitieslist{
+    height: 15rem;
+    overflow-y: scroll;
+}
 
 
