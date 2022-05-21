@@ -174,5 +174,36 @@ section three
     height: 15rem;
     overflow-y: scroll;
 }
+/* ///////////////////////////
+section two
+////////////////////////// */
+.s2header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3em 1.5em;
+    align-items: center;
+}
+.s2header div{
+    font-size: 1.2em;
+}
+.s2header span{
+    position: relative;
+}
+.s2header input{
+    background-color: var(--backgroundcolor-lighter-search-card);
+    border: none;
+    border-radius: 0.3em;
+    width: 10rem;
+    height: 1.7rem;
+    color: var(--font-color-faint);
+    padding-left: 2.5em;
+    font-size: 0.6em;
+}
+.s2header img{
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    width: 0.9em;
 
+}
 
