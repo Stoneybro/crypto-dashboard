@@ -177,11 +177,16 @@ section three
 /* ///////////////////////////
 section two
 ////////////////////////// */
+.section2wrapper{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
 .s2header{
     display: flex;
     justify-content: space-between;
     padding: 1.3em 1.5em;
     align-items: center;
+    grid-column: 1/9;
 }
 .s2header div{
     font-size: 1.2em;
@@ -206,4 +211,9 @@ section two
     width: 0.9em;
 
 }
+.main-chart{
+    grid-column: 2/8;
+    grid-row: 3;
+}
+
 
