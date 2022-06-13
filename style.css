@@ -212,8 +212,13 @@ section two
 
 }
 .main-chart{
-    grid-column: 2/8;
+    grid-column: 1/9;
     grid-row: 3;
+
+}
+.chartwrapper{
+    background-color:  rgba(31, 30, 62, 1);
+    margin: 1.5rem;
 }
 
 
