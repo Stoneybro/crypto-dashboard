@@ -220,5 +220,24 @@ section two
     background-color:  rgba(31, 30, 62, 1);
     margin: 1.5rem;
 }
+.boxwrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    margin: 1.5rem;
+}
+.littlebox{
+    border: 2px solid    rgba(43, 130, 251, 0.6);
+    width: auto;
+    height: 170px;
+    border-radius: 5px;
+    padding: 0.8rem;
+}
+.littlebox img{
+    width: 100%;
+}
+.lboxlogo img{
+    width: 20%;
+}
 
 
